@@ -2,9 +2,8 @@
 
 ## Description
 
-This repository contains the code and prompt templates used to generate and run **LLM-driven motion scripts** for the Hydrone aquatic social robot. Instead of relying on pre-programmed schedules (PPS), we use a large language model (LLM, e.g., GPT) to generate Python control scripts that express the personality of well-known characters (e.g., Winnie-the-Pooh) through Hydrone’s movements and water output. :contentReference[oaicite:0]{index=0}  
+This repository contains the code and prompt templates used to generate and run **LLM-driven motion scripts** for the Hydrone aquatic social robot. Instead of relying on pre-programmed schedules (PPS), we use a large language model (LLM, e.g., GPT) to generate Python control scripts that express the personality of well-known characters
 
-The workflow follows the system described in our HRI ’26 late-breaking report *“Winnie-the-Pooh-Powered: How LLMs and Well-Known Characters Can Create Adaptive Personalities for Aquatic Social Robot Interactions”*:
 
 1. **Offline stage:** A PC-side script sends structured prompts (robot constraints, character, user actions, example output format) to the LLM, and saves the generated motion scripts as Python files.
 2. **Online stage:** An operator connects to the Hydrone over Wi-Fi, selects one of the saved scripts, and runs it on the robot to produce character-specific motion behaviour.
