@@ -2,7 +2,8 @@
 
 ## Description
 
-This repository contains the code and prompt templates used to generate and run **LLM-driven motion scripts** for the Hydrone aquatic social robot. Examples of the LLM-generated scripts are also in the **LLM_Generated_Scripts** Instead of relying on pre-programmed schedules (PPS), we use a large language model (LLM, e.g., GPT) to generate Python control scripts that express the personality of well-known characters
+This repository contains the code and prompt templates used to generate and run **LLM-driven motion scripts** for the Hydrone aquatic social robot. Examples of the LLM-generated scripts are also in the **LLM_Generated_Scripts**. 
+Instead of relying on pre-programmed schedules (PPS), we use a large language model (LLM, e.g., GPT) to generate Python control scripts that express the personality of well-known characters
 
 
 1. **Offline stage:** A PC-side script sends structured prompts (robot constraints, character, user actions, example output format) to the LLM, and saves the generated motion scripts as Python files.
