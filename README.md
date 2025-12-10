@@ -21,7 +21,7 @@ The core components are:
   - Extracts the generated Python code
   - Saves each result as a runnable motion script in `LLM_Generated_Scripts/`
 
-- `Run_LLM_Scripts_on_Hydrone.py`  
+- `2_Run_Character_on_Hydrone.py`  
   TCP client that:
   - Connects to the ESP32/M5 controller on the Hydrone via Wi-Fi
   - Lists available LLM-generated scripts in `LLM_Generated_Scripts/`
